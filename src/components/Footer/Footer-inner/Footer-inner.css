@@ -1,0 +1,15 @@
+.footer__title{
+    color: rgb(133, 70, 58);
+    margin-bottom: 8px;
+}
+
+.footer__social{
+    display: flex;
+    font-size: 13px;
+    justify-content: space-between;
+}
+
+.footer__social a{
+    text-decoration: none;
+    color:black
+}

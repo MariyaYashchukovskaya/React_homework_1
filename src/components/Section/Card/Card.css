@@ -1,0 +1,40 @@
+.card {
+    background-color: rgba(190, 183, 174, 0.2);
+    border-radius: 20px;    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 480px;
+}
+
+.card__inner{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card__title {
+    color: rgb(133, 70, 58);
+   margin: 15px 0 8px;
+}
+
+.card__photo {
+    width: 200px;
+    height: 250px;
+    border-radius: 15px;
+    margin-bottom: 8px;
+}
+
+.card__text{
+    font-size: 14px;
+    padding: 0 20px;
+}
+.card__btn {
+    background-color: transparent;
+    padding: 1.5px 8px;
+    border: 1px solid rgb(133, 70, 58);
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
